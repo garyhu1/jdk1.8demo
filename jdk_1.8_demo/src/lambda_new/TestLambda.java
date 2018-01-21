@@ -41,6 +41,9 @@ public class TestLambda {
 		String val = stringConverter.convert(2);     // 3
 		System.out.println(val);
 		
+		//lambda表达式无法访问接口中的默认方法
+//		MyInterface m = () -> say();
+		
 	}
 	
 }
